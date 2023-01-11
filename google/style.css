@@ -1,12 +1,30 @@
+
 /* !!!!!!!! GENERAL !!!!!!!!!!
 ___________________________________________ */
+
+html, body {
+    min-height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #202124;
-    margin: 0;
+    margin: ;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
+
+/* !!!!!TOP BANNIERE !!!!!!! 
+__________________________________________ */
 
 .top {
     display: flex;
@@ -143,7 +161,6 @@ ___________________________________________________*/
     margin-top: auto;
     justify-content: center;
     justify-content: space-between
-
 }
 
 .contact1 {
